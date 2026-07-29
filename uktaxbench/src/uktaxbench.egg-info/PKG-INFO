@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: uktaxbench
+Version: 0.1.0
+Summary: A contamination-resistant benchmark for UK personal tax reasoning in LLMs
+Requires-Python: >=3.11
+Provides-Extra: models
+Requires-Dist: anthropic>=0.40; extra == "models"
+Requires-Dist: openai>=1.50; extra == "models"
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: ruff>=0.6; extra == "dev"
